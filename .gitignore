@@ -1,0 +1,68 @@
+NDependOut/
+*.suo
+*.user
+_ReSharper
+packages/
+TestResults/
+*.[Cc]ache
+*.orig
+*.dbmdl
+*.ncrunchsolution
+*.zip
+*.7z
+ConfMe.sln.ide/
+
+[Bb]in/
+[Oo]bj/
+
+[Dd]ebug/
+[Rr]elease/
+
+*.DS_Store
+
+*.suo
+*.Cache
+
+*.sdf
+*.opensdf
+*.user
+*.pdb
+*.ipch
+*.ilk
+*.vspx
+*.psess
+
+# Approval Tests
+*.received.*
+
+# Eclipse
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# TeXlipse plugin
+.texlipse
+
+
+src/Nuance/tethr.NuanceSpeechProcessor/NuanceSpeechProcessor.log
