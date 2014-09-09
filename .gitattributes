@@ -1,0 +1,38 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+*.sln    merge=union
+*.csproj merge=union
+*.vbproj merge=union
+*.fsproj merge=union
+*.dbproj merge=union
+*.design -diff -text
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+
+# UNIX style line endings for shell scripts
+*.sh text eol=lf
+
+# UNIX style line endings for pythos scripts
+*.py text eol=lf
+
+# UNIX style line endings for Linux setup script directory
+src\SetupScripts eol=lf
+
+# Bunch of Unicode files with chinese and stuff
+src\WebRTC\trunk\third_party\icu\source\data\brkitr\ binary
+
+# Approval Tests
+*.approved.* binary
